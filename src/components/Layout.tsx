@@ -96,7 +96,7 @@ const LayoutContainer = (): React.ReactElement => {
       </h1>
 
       <div className="flex justify-center items-center">
-        <div className="mt-2 w-1/1 flex flex-col justify-center items-center border-2 left-container">
+        <div className="mt-2 w-5/6 flex flex-col justify-center items-center border-2 left-container">
           <FileUpload
             onUploadStarted={onUploadStartedHandler}
             onUploadCompleted={onUploadedHandler}

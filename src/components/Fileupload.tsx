@@ -89,7 +89,7 @@ const FileUpload = ({
         className="hidden"
         ref={fileInput}
       />
-      <div style={{ width: '390px' }}>
+      <div>
         {image === null ? null : (
           <Fragment>
             <PreviewTitle title={classifiedDogNames} />
